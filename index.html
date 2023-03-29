@@ -1,117 +1,445 @@
+<!DOCTYPE html>
 <html>
-	<head>
-
-	<!--Internal Navigation
-	<nav>
-		<a href="#">Home</a>
-		<a href="#aboutus">About Us</a>
-		<a href="#ourservices">Our Services</a>
-		<a href="#ourlocation">Our Location</a>
-		<a href="#contactus">Contact Us</a>
-	</nav>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--
+Tinker CSS Template
+https://templatemo.com/tm-506-tinker
 -->
+        <title>Tinker CSS Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-	<nav>
-		<a href="#">Home</a>
-		<a href="aboutus.html">About Us</a>
-		<a href="services.html">Our Services</a>
-		<a href="location.html">Our Location</a>
-		<a href="contactus.html">Contact Us</a>
-	</nav>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/lightbox.css">
 
-	<h1> PWANI TEKNOWGALZ.</h1>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
 
-</head>
-<body style="background-color:burlywood;">
-	<p style= "font-type:new times roman;font-color:pink;"> We are a technology women-led, registered community-based organization that equips girls and young women in marginalized communities in Kenya with employable practical skills in STEM(Science, Technology, Engineering and Maths) with the aim of empowering them economically to have sustainable skills and contribute to the digital economy.  We have pioneered and conducted a broad spectrum of programs on technology for young women in various counties and towns in Kenya. These include; Nakuru, Kisumu, Lamu, Mombasa and Nairobi. Pwani Teknowgalz was started  by passionate young women  in tech Aisha Abubakar, Joan Nabusoba and Ruth Kaveke while studying Technology at Technical University of Mombasa. They were amazed by the low representation of women in technology in their class and were inspired to bridge this gap. So far we have worked with a total number of 6000 young women. The programs we run include STEM CAFE Kenya, Technovation, Codehack, Africa Code Week, Mombasa Girls in STEM and Django Girls.</p>
- 
-	<div id="aboutus">
-		<h2>About us</h2>
-		<p>OUR MISSION
-Our mission is to equip girls and young women in marginalised communities in Kenya with employable practical skills in STEM with the aim of empowering them economically to be sustainable and contribute to the digital economy.
-</p><br>
-<p><b>WHY US</b>
-	Our team is highly motivated and adept in delivering problem-solving, critical thinking, and soft skills in technology that women can apply in any STEM career path as they seek employment.</p><br>
-	<p><b>WOMEN-LED</b>
-	We create a holistic safe environment where young women have equitable opportunity in technology training, mentorship, and confidence to contribute in the fast paced digital world.</p>
-
-</div>
-<div id="ourservices">
-	
-	<h2>Our services</h2>
-	<p><b> Here are some of the services that we offer at our space;</b></p>
-</head>
 <body>
-	<ol type="points">
-	<li> 3D DESIGN AND PRINTING </li>
-	<li> CODERS AT AMERICAN SPACES</li>
-	<li> STEM CAFE KENYA</li>
-	<li> MOMBASA GIRLS IN STEM</li>
-	<li> AFRICA CODE WEEK</li>
-	<li> TECHNOVATION CHALLENGE</li>
-	<li> STEM CONFERENCE</li>
-	<li> DJANGO GIRLS MOMBASA</li>
-	<li> DIGITAL SKILLS</li>
-</ol>
-<p><b> Here are some videos of what services we offer at our space;</b></p><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-K-vOGZBPFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kUSz30lS5qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	
-</div>
-
-<div id="our location">
-	
-	<h2>Our Location</h2>
-	<div class="first">
-		<h2>Nairobi</h2>
-		<h2>City of cool waters</h2>
-		<P>Nairobi is the capital city of kenya. It is said that the name Nairobi came from the maasai people. I Personally was born there and its a nice place to be. I usually enjoy myself every time I visit the city.</P>
-</div>
-<div class="second">
-	<h2>Mombasa</h2>
-<h3 id="tagline">Mombasa raha</h3>
-
-	<p>Mombasa is another of our cities in Kenya. It is on the coastal reagion of Kenya. Mombasa people are so welcoming and make very delicious foods. In mombasa people get to enjoy the cool brezze from the Indian ocean and swim.I love Mombasa.</p>
-</div>
-<div class= "third">
-	<h2>Kisumu</h2>
-	<h3>Kisumu Dala</h3>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top"><em>Cindy</em>K</a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="scroll-top">Home</a></li>
+                        <li><a href="#" class="scroll-link" data-id="about">About</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio">Business</a></li>
+                        <li><a href="#" class="scroll-link" data-id="blog">Activities</a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact-us">Contacts</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.header-->
 
 
-	<p>Kisumu is the third city in Kenya. It is mainly dominated by the luo people. In kisumu people eat fish from lake victoria.</p>
-</div>
-</div>
-<div id="contactus">
-	<h2>Contact us</h2>
-	<p> Here is where to find us at;</p>
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="text-content">
+                <h2><em>Entreprenuer.</em> <span>Website Developer.</span> Environmentalist.</h2>
+                <p>Hello. My name is Cindy Kahindi from Mombasa Kenya.</p>
+                <div class="primary-white-button">
+                    <a href="#" class="scroll-link" data-id="about">Let's Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8079163382663!2d39.66201491429176!3d-4.059548346081532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18401371aca2d6d7%3A0xa72c14b4158686!2sPwani%20Teknowgalz!5e0!3m2!1sen!2ske!4v1679606097413!5m2!1sen!2ske" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
-	<P> Here is a form you need to fill if you are interested in Tech and would like to join us.</P>
-<form>
-           <label for="fname">First Name</label>
-			<input type="text" id="Fname" name="fname"value="">
-			<br>
 
-			<label for="Lname">Last Name</label>
-			<input type="text" id="Lname" name="lname"value="">
-			<br>
+    <section id="about" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="img">
+                            <img src="img/c2.jpeg" alt="cindy1">
+                        </div>
+                        <h4>Background</h4>
+                        <div class="line-dec"></div>
+                        <p>I was born on 21st Sept 1998 by one Mrs Mary Amoyi Kahindi and M.r Habel Kahindi in Nairobi Kenya.I am blessed to have two amaizing sisters by the names Hilda and Sheila Kahindi.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="img">
+                            <img src="img/c1.jpeg" alt="cindy2">
+                        </div>
+                        <h4>School</h4>
+                        <div class="line-dec"></div>
+                        <p>I started my kindergarten education in a school known as Dandora Junior in Nairobi County then went to Sacred Heart school in Mombasa County for my primary education.For highschool studies, I went to Waa Girls in Kwale County for four years and then went to Mount Kenya University, Mombasa Campus where I am still at pursuing an IT course. </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="img">
+                            <img src="img/c3.jpg" alt="cindy3">
+                        </div>
+                        <h4>Volunteering Activities</h4>
+                        <div class="line-dec"></div>
+                        <p>During my free time, I like engaging myself in volunteering activities.I have done quite a number of the volunteering activities with various organizations like; The Swahilipot Hub during events, Baus Taka Enterprise on clean-up activities at the beach and in the communities.At My church in ICC MOMBASA during events like Worship At The Gates I also usually give a helping hand.At Mission Relief UK, I volunteered to go for a food distribution activity on a program by the name Kenya Emergency Drought Appeal in December 2022.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="img">
+                            <img src="img/c5.jpeg" alt="">
+                        </div>
+                        <h4>Cee's Quality Sandals</h4>
+                        <div class="line-dec"></div>
+                        <p>I am passionate about business and I can boldly say this because I have done quite a number of businesses and I have been enjoying every bit of the journey.I currently own a Leather Sandals business that is hardly a year old but doing great. I sell Pure and Soft leather sandals for both genders and of all sizes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<label for="email"> Email</label>
-			<input type="email" id="email"name="email"value="">
-            <br>
-            <lable for="telephone number"> Telephone Number</lable>
-			<input type="tel" name="contact-number"><br>
-           
-<label for="Bio">Add a comment.</label>
-<textarea name="bio" rows="20" cols="500">My name is.....
+    <section id="portfolio">
+        <div class="content-wrapper">
+            <div class="inner-container container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="section-heading">
+                            <h4>Cee's Quality Leather Sandals</h4>
+                            <div class="line-dec"></div>
+                            <p>The leather footwears deliver an extra comfort and protection to the feet and the users also don't have to worry about their shoes. Ladies working for long hours wearing leather sandals need not to worry about their sandals slipping beneath their feet. Having a pair of genuine leather sandals is an investment that will keep their feet feel comfortable throughout the entire shift.</p>
+                            <div class="filter-categories">
+                                <ul class="project-filter">
+                                    <li class="filter" data-filter="all"><span>All</span></li>
+                                    <li class="filter" data-filter="branding"><span>Ladies</span></li>
+                                    <li class="filter" data-filter="graphics"><span>Men</span></li>
+                                    <li class="filter" data-filter="nature"><span>Unisex</span></li>
+                                    <li class="filter" data-filter="animation"><span>Buckled</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-8">
+                        <div class="projects-holder-3">
+                            <div class="projects-holder">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/shoe0.jpeg" data-lightbox="image-1"><img src="img/shoe0.jpeg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix animation">
+                                      <div class="thumb">
+                                        <div class="image">
+                                                <a href="img/shoe1.jpeg" data-lightbox="image-1"><img src="img/shoe1.jpeg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/shoe8.jpeg" data-lightbox="image-1"><img src="img/shoe8.jpeg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix graphic nature">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/shoer.jpeg" data-lightbox="image-1"><img src="img/shoer.jpeg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/shoe01.jpeg" data-lightbox="image-1"><img src="img/shoe01.jpeg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix graphic animation">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/shoe6.jpeg" data-lightbox="image-1"><img src="img/shoe6.jpeg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
 
-	</textarea>
 
-<input type="submit" value="submit">
 
-        </form>
+    <section id="Benefits of owning leather sandals">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <h4>Stylish</h4>
+                                <p>Genuine leather sandals give a stylish look. No one can deny this. Sandals made from manufactured materials often look uneasy and unnatural. Leather sandals naturally look like luxury footwears since the material used in them is sleek and shiny.</p>
+                                
+                                <span><i>Facts About Leather Sandals</i></span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                 <h4>Breathable</h4>
+                            <p>Mostly customers do not know that leather breathes. It does not breathe though in reality, but it does let the air pass through the sandal. This is a great benefit with leather sandals as the leather material letting the air keeps the feet cool and does not create unpleasant smelling.</p>
+                             <span><i>Facts About Leather Sandals<i></span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <h4>Durable</h4>
+                                <p>Another great benefit with leather sandals is that these footwears are extremely durable. Genuine leather sandals can outlive synthetic sandals. High quality leather stays strong against challenging work environments which means the sandals will last long.</p>
+                             <span><i>Why you should own a pair of leather sandals.</i></span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <h4>Water Resistant</h4>
+                                <p>The well processed and waxed leather sandals are a great resistant to water and other liquids. While working outdoors or at home, ladies often need to wear shoes that are water resistant to keep their feet dry besides avoiding any external damage to the shoe. Leather sandals can keep the feet dry from any spills or puddles.</p>
+                                
+                                <span>Facts About Leather Sandals</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	
-</div>
+    <div class="tabs-content" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="col-md-4">
+                        <div class="section-heading">
+                            <h4>Activities</h4>
+                            <div class="line-dec"></div>
+                            <p>I have Volunteered in quite a number of organization's programs which include;</p>
+                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                                <li><a href="#tab1" class="active">Swahilipot Hub</a></li>
+                                <li><a href="#tab2">Baus Taka Enterprise</a></li>
+                                <li><a href="#tab3">Mission Relief UK</a></li>
+                                <li><a href="#tab4">Phoenix Eco-Plastik Systems</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <section id="first-tab-group" class="tabgroup">
+                            <div id="tab1">
+                                <img src="img/sphv.jpeg" alt="sphv">
+                                <div class="text-content">
+                                    <h4>Swahilipot Hub</h4>
+                                    <p>SPH is a community space that nurtures youth talent and skills in technology, creatives/arts and heritage. It is a representation of the past (heritage) and future (digital)</p>
+                                    
+                                    <p>On this day, I volunteered to visit <b>Little Sister Home For The Poor</b> at Tudor Mombasa a program organized by a group of youths by the name <b>Reach For Purpose</b> in partnership with <b>SwahiliPot Hub</b>. It was a lovely experience as we got to interact with the old that have been abandoned and some that come from poor families that cannot cater for their needs, and made them feel loved and cared for.</p>
+                                </div>
+                            </div>
+                            <div id="tab2">
+                                <img src="img/baustakav.jpeg" alt="btv">
+                                <div class="text-content">
+                                    <h4>Baus Taka Enterprise</h4>
+                                    
+                                    <p>Baus taka is a tech integrated solid waste management company. Its main objective is to provide quality, reliable and eco–friendly waste management solutions to residential, corporate and commercial institutions with the aim of conserving and sustaining the environment.</p><br>
+                                    <p>On this day we had gone to see the plastic waste collection centre located at Old Town Mombasa near Fort Jesus and to also do a community cleanup and see how plastic wastes are seperated, cleaned and shredded into smallest particles for easy recycling.</p>
+                                </div> 
+                            </div>
+                            <div id="tab3">
+                                <img src="img/missionr.jpeg" alt="missionrelief">
+                                <div class="text-content">
+                                    <h4>Mission Relief</h4>
+                                   
+                                    <p>It was on December 2022 when there was drought in most parts of our country Kenya.<b> Mission Relief UK</b> in partnership with<b> Mission Relief Africa</b> had a program for food distribution in parts of the country that had been affected and I took part in volunteering on the program. We went all the way to Bamba which is in Kilifi County to take foodstuff to the people of the community that were most affected. It was really emotional to see families with no hopes for food,with the environment being sooo dull and dry and the sun so hot.</p>
+                                </div>
+                            </div>
+                            <div id="tab4">
+                                <img src="img/pepv.jpeg" alt="pepv">
+                                <div class="text-content">
+                                    <h4>Phoenix Eco-Plastik Systems</h4>
+                                    
+                                    <p>This is a group of four young stars that are participating on Mombasa Plastic Prize Challenge as one of the groups that have made it to the finalizing bit of the challenge. They are an Eco-friendly business aimed at giving back to the communities informal settlements while conserving the environment as they recycle plastics.</p><br><p>Here, I was invited by a friend of mine, that's one of the PEP's stars by the name Terry Okwanyo to volunteer on Community Clean-up activity in Brazil Likoni.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h4>Contacts</h4>
+                        <div class="line-dec"></div>
+                        <p>Feel free to reach out to me on matters concerning all that I do.</p>
+
+                        <P>Get yourself or loved one a pair of Leather Sandals from me today because,Why NOT.</P>
+                        <div class="pop-button">
+                            <h4>Click To Order Leather Sandals</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="pop">
+                        <span>✖</span>
+                        <form id="contact" action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required ="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required ="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map">
+    	<!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+        -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63676.76124414996!2d39.672322!3d-4.061645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18406d5f39ad42a7%3A0xd02da0a9d493b765!2sMOMBASA%20CBD!5e0!3m2!1sen!2ske!4v1680047818910!5m2!1sen!2ske" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="logo">
+                        <div class="image"><a href="img/logor.png" ><img src="img/logor.png"></a>
+                        <p>Copyright &copy; Cee's Quality Leather Sandals 
+                       <br>Design: Cindy Kahindi</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>For More Info</h4>
+                        <ul>
+                            <li><em>Phone</em>: +254 703132880</li>
+                            <li><em>Email</em>: cindy kahindi@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="connect-us">
+                        <h4>Connect With Me Via</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
 </body>
 </html>
