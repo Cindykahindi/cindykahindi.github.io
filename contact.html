@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <title>Africa's Exquisite Sandals</title>
+    <title> Contacts</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/tooplate-main.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/flex-slider.css">
 <!--
 Tooplate 2114 Pixie
 https://www.tooplate.com/view/2114-pixie
@@ -32,7 +33,7 @@ https://www.tooplate.com/view/2114-pixie
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <span></span>
+            <span>Luxury Is A Lifestyle</span>
           </div>
         </div>
       </div>
@@ -41,25 +42,27 @@ https://www.tooplate.com/view/2114-pixie
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="pics/logor.png" alt="logo"></a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/header-logo1.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact Us</a>
+              <span class="sr-only">(current)</span>
             </li>
           </ul>
         </div>
@@ -67,114 +70,72 @@ https://www.tooplate.com/view/2114-pixie
     </nav>
 
     <!-- Page Content -->
-    <!-- Banner Starts Here -->
-    <div class="banner">
+    <!-- About Page Starts Here -->
+    <div class="contact-page">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="caption">
-              <h2>Facts About African Leather Sandals</h2>
+            <div class="section-heading">
               <div class="line-dec"></div>
+              <h1>Contact Us</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="map">
+            		<!-- How to change your own map point
+                           1. Go to Google Maps
+                           2. Click on your location point
+                           3. Click "Share" and choose "Embed map" tab
+                           4. Copy only URL and paste it within the src="" field below
+                    -->
 
-              <ul>
-              <li><p><i>Sandals can be a fantastic way to provide your feet with a break from the usual closed shoes. They make it easy to walk and allows one to make an elegant entrance at the beach or pool party. </p><br></i></li>
-              <li><p><i>They are a very versatile accessory, but they won’t offer any protection for your feet if they don’t fit correctly.
-               Do not let your toes hang off the edge of the Sandal, and don’t force yourself into a sandal that is too tight because you’re afraid of falling out of it while you’re walking down the streets.</p></i></li>
-               <br>
-              <li><p><i>Leather is more durable and lasts longer than its synthetic counterparts. If treated properly leather doesn't crack or tear and it tends to maintain its colour better. A good pair of quality leather shoes or sandals can last for years and still look great.</i></li><p>
-
-              <div class="main-button">
-                <a href="#">Order Now!</a>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15919.574344236478!2d39.63044285774232!3d-4.042132835428345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18406d46635b460b%3A0xd75ccc573093cb6b!2sKenya%20Ports%20Authority!5e0!3m2!1sen!2ske!4v1680765357412!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">Send Message</button>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="share">
+                        <h6>You can also keep in touch on: <span><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></h6>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Banner Ends Here -->
-
-    <!-- Featured Starts Here -->
-    <div class="featured-items">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <div class="line-dec"></div>
-              <h1>What Your Sandal Rack's Missing</h1>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="owl-carousel owl-theme">
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/shoe1.jpg" alt="Item 1">
-                  <h4>Men's Leather Sandals</h4>
-                  <h6>ksh.1500</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh2.jpeg" alt="Item 2">
-                  <h4>Ladies Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh3.jpeg" alt="Item 3">
-                  <h4>Ladies Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh5.jpg" alt="Item 4">
-                  <h4>Ladies Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh6.jpg" alt="Item 5">
-                  <h4>Mens Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh12.jpg" alt="Item 6"> 
-                  <h4>Unisex Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh8.jpeg" alt="Item 7">
-                  <h4>Unisex Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh11.jpeg" alt="Item 8">
-                  <h4>Unisex Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-              <a href="single-product.html">
-                <div class="featured-item">
-                  <img src="pics/sh10.jpeg" alt="Item 9">
-                  <h4>Unisex Leather Sandals</h4>
-                  <h6>ksh.1300</h6>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Featred Ends Here -->
-
+    <!-- About Page Ends Here -->
 
     <!-- Subscribe Form Starts Here -->
     <div class="subscribe-form">
@@ -183,12 +144,12 @@ https://www.tooplate.com/view/2114-pixie
           <div class="col-md-12">
             <div class="section-heading">
               <div class="line-dec"></div>
-              <h1>Hey, Feel Free To Talk To Us!</h1>
+              <h1>Hey,Feel Free To Talk To Us!</h1>
             </div>
           </div>
           <div class="col-md-8 offset-md-2">
             <div class="main-content">
-              <p>Please leave us a message of your experience on shopping from us. We would like to improve and make our space feel like home to you.</p>
+              <p>Please leave us a message of your experience on shopping from us. We would like to improve and make our space feel like home to you. </p>
               <div class="container">
                 <form id="subscribe" action="" method="get">
                   <div class="row">
@@ -223,17 +184,17 @@ https://www.tooplate.com/view/2114-pixie
         <div class="row">
           <div class="col-md-12">
             <div class="logo">
-              <img src="pics/logor.png" alt="logo">
+              <img src="pics/logor.png" alt="">
             </div>
           </div>
           <div class="col-md-12">
             <div class="footer-menu">
               <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
                 <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
                 <li><a href="#">Contact Us</a></li>
-               
+                
               </ul>
             </div>
           </div>
@@ -259,9 +220,9 @@ https://www.tooplate.com/view/2114-pixie
         <div class="row">
           <div class="col-md-12">
             <div class="copyright-text">
-              <p>Copyright &copy; Africa's Exquisite Sandals 
+              <p>Copyright &copy; AFRICA'S EXQUISITE SANDALS 
                 
-                - Design: <a rel="nofollow" href="https://www.facebook.com/tooplate">Esther and Cindy</a></p>
+                - Design: <a rel="nofollow" href="https://www.facebook.com/tooplate">ESTHER AND CINDY</a></p>
             </div>
           </div>
         </div>
@@ -278,6 +239,8 @@ https://www.tooplate.com/view/2114-pixie
     <!-- Additional Scripts -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/flex-slider.js"></script>
 
 
     <script language = "text/Javascript"> 
